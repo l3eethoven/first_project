@@ -12,6 +12,10 @@ public static void main(String args[]){
 		}
 		else System.out.println("");
 		
+		if (i==100){
+			System.out.println("The End of program");
+			
+		}
 	}
 	
 }
