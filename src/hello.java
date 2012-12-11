@@ -4,6 +4,8 @@ public static void main(String args[]){
 	System.out.println("Hello world");
 	int i;
 	int a=0;
+	int bb=0;
+	
 	
 	for (i=1;i<=100;i++){
 		System.out.print("Var i = "+i);
@@ -18,17 +20,21 @@ public static void main(String args[]){
 			
 		}
 		if (i%10==0){
-			int b = a/2;
+			bb = a/2;
 			a--;
 						
 		}
 	}
 	if (a%2==0){
 		
-		System.out.println("var a = "+a);
+		System.out.println("var a = "+a+bb);
 		System.out.println("hello");
 		
+		
 	}
+
+	int f = -10-4;
+	System.out.println("value is "+f);
 	
 }
 }
