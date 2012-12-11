@@ -34,7 +34,7 @@ public static void main(String args[]){
 	}
 
 	int f = -10-4;
-	System.out.println("value is "+f);
+	System.out.println("gggggggggg "+f);
 	
 }
 }
