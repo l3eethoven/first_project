@@ -17,9 +17,13 @@ public static void main(String args[]){
 			System.out.println("The End of program");
 			
 		}
+		if (i%10==0){
+			a=a/2;
+		}
 	}
-	if (a==0){
+	if (a%2==0){
 		
+		System.out.println("var a = "+a);
 		
 		
 	}
