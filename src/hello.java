@@ -3,6 +3,7 @@ public class hello {
 public static void main(String args[]){
 	System.out.println("Hello world");
 	int i;
+	int a=0;
 	
 	for (i=1;i<=100;i++){
 		System.out.print("Var i = "+i);
@@ -16,6 +17,11 @@ public static void main(String args[]){
 			System.out.println("The End of program");
 			
 		}
+	}
+	if (a==0){
+		
+		
+		
 	}
 	
 }
