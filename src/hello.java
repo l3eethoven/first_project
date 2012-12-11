@@ -17,10 +17,16 @@ public static void main(String args[]){
 			System.out.println("The End of program");
 			
 		}
+		if (i%10==0){
+			int b = a/2;
+			a--;
+						
+		}
 	}
-	if (a==0){
+	if (a%2==0){
 		
-		
+		System.out.println("var a = "+a);
+		System.out.println("hello");
 		
 	}
 	
